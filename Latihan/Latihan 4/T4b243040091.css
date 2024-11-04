@@ -1,0 +1,83 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: white;
+    color: #333; 
+    background-image: url(pattern\ black.png);
+}
+
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: black;
+}
+
+.header {
+    color: purple;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 2px;
+    margin-right: 10px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: purple;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: purple;
+    color: white;
+}
+
+.hero {
+    height: 280px;
+    background-image: url(mobil.jpg);
+    background-size: cover;
+    background-position: 0 -475px;
+    border-top: 5px solid purple;
+    border-bottom: 5px solid purple;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    color: purple;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.content p {
+    color: purple;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: purple;
+    padding: 8px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
