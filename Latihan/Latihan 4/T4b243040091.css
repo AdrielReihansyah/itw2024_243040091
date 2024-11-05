@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    color: purple;
+    color: white;
     padding: 20px;
     padding-bottom: 10px;
 }
@@ -50,6 +50,21 @@ body {
     border-bottom: 5px solid purple;
 }
 
+.hero2 {
+    height: 280px;
+    background-image: url(mobil2.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    border-top: 5px solid purple;
+    border-bottom: 5px solid purple;
+}
+
+.content2 {
+    padding: 20px;
+    color: purple;
+    margin: 20px;
+}
+
 .content {
     padding: 20px;
 }
@@ -57,12 +72,17 @@ body {
 .content h2 {
     font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 
 .content .penulis {
     color: purple;
     font-size: 12px;
     margin-top: -5px;
+}
+
+.penulis a {
+    color: white;
 }
 
 .content p {
