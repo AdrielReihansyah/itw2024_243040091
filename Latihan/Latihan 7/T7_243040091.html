@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driell Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="T7_243040091.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Driell Shop</h2>
+                <p class="sub-heading">Sepatu Nike</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">Rp 2.399.000</h4>
+                <p class="item">Nike Airmax</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">Rp 1.799.000</h4>
+                <p class="item">Nike Blazer</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Nike Branded</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Nike</h3>
+                <p>
+                    Nike adalah perusahaan multinasional yang bergerak di bidang desain, pengembangan, dan pemasaran produk olahraga, Nike merupakan salah satu merek olahraga terkemuka di dunia.
+                </p>
+            </div>
+            <div class="service">
+                    <div class="icon"></div>
+                    <h3>Kualitas</h3>
+                    <p>
+                        Kualitas produk Nike umumnya dianggap baik, dengan banyak produk yang menggunakan teknologi terbaru dan bahan berkualitas tinggi.
+                    </p>
+             </div>
+             <div class="service">
+                    <div class="icon"></div>
+                    <h3>Garansi</h3>
+                    <p>
+                        Garansi produk Nike umumnya mencakup jaminan terhadap cacat material dan pengerjaan selama dua tahun sejak tanggal pembuatan yang tertera pada label produk.
+                    </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Lokasi</h3>
+                <p>
+                    Anda bisa mengunjungi situs resmi Nike untuk mencari lokasi toko terdekat. Di Indonesia, Anda dapat menemukan toko resmi Nike di beberapa kota besar seperti Jakarta, Surabaya, dan Bandung.
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/nike1.png" alt="">
+            <img src="img/nike2.png" alt="">
+            <img src="img/nike3.png" alt="">
+            <img src="img/nike4.png" alt="">
+            <img src="img/nike5.png" alt="">
+            <img src="img/nike6.jpeg" alt="">
+            <img src="img/nike7.png" alt="">
+            <img src="img/nike8.png" alt="">
+            <img src="img/nike9.png" alt="">
+            <img src="img/nike10.png" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+const nav =document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function() {
+    nav.classList.toggle('slide');
+}); 
+    </script>
+</body>
+</html>
